@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "914871107637",
+    "project_id": "inventory1c",
+    "storage_bucket": "inventory1c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914871107637:android:146a0b5de9e726f563b17c",
+        "android_client_info": {
+          "package_name": "com.technokrat.inventory1c"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914871107637-a82uskaoqu4vfu54csitn75ptgb0paa0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQtzMVz47P55JqbOMG8YyqdgtAVrZkKrU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914871107637-a82uskaoqu4vfu54csitn75ptgb0paa0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

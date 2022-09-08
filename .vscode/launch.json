@@ -1,0 +1,85 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "inventory_1c",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "inventory_1c (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "inventory_1c (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "models",
+            "cwd": "packages/models",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "models (profile mode)",
+            "cwd": "packages/models",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "models (release mode)",
+            "cwd": "packages/models",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "repository",
+            "cwd": "packages/repository",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "repository (profile mode)",
+            "cwd": "packages/repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "repository (release mode)",
+            "cwd": "packages/repository",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "services",
+            "cwd": "packages/services",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "services (profile mode)",
+            "cwd": "packages/services",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "services (release mode)",
+            "cwd": "packages/services",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
