@@ -41,7 +41,8 @@ class _Listpage extends State<Listpage> {
     setState(() {
       // Listpage(WarehouseCode: widget.WarehouseCode, TMZ: widget.TMZ)
       //     .createState();
-      tmzLists = functionForBuilder();
+      tmzLists = functionForBuilder(); //protocol - delegate 
+      //screen lifesycle - надо вызвать didapear ios - onresume android 
     });
     super.initState();
 
@@ -215,6 +216,7 @@ class _Listpage extends State<Listpage> {
         ],
       ),
     ));
+
 
     return WillPopScope(
         onWillPop: () async {

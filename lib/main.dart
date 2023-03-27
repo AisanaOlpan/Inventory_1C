@@ -15,7 +15,7 @@ void main() async {
   bool firstTime = (prefs.getBool('firstTime')); // Получаем значение, если пустое ставим true
   if (firstTime == null) {
     loadData2();
-    prefs.setBool('firstTime', true);
+    prefs.setBool('firstTime!', true);
   }
   runApp(InventoryApp());
 }
